@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "basic-radar": "/components/BasicRadar/index"
+  }
+}

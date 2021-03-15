@@ -1,0 +1,23 @@
+.chart-section {
+  padding: 20rpx;
+  box-shadow: 0 4rpx 24rpx 0 rgb(0 0 0 / 10%);
+  border-radius: 8rpx;
+  border: 2rpx solid #ebeef5;
+  background-color: #f7f7f7;
+  transition: 0.3s;
+}
+
+.title {
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #252222;
+  line-height: 44rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+.chart-container {
+  border: 2rpx solid #999;
+  border-radius: 8rpx;
+}

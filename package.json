@@ -1,0 +1,14 @@
+{
+  "name": "jw-f2-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeren",
+  "license": "MIT",
+  "dependencies": {
+    "jw-f2": "^1.0.2"
+  }
+}

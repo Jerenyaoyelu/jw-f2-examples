@@ -1,0 +1,6 @@
+<view class="page-container">
+  <view class="chart-section">
+    <view class="title">Basic radar chart</view>
+    <view class="chart-container"><basic-radar chartData="{{radar}}"/></view>
+  </view>
+</view>
