@@ -2,5 +2,5 @@
 
 ### Example list
 - Radars
-  - basic radar
+  - [basic radar](./components/BasicRadar/index.js)
   > ![](./assets/radar_basic.png)
