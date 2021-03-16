@@ -1,6 +1,10 @@
 <view class="page-container">
   <view class="chart-section">
+    <view class="title">Basic line chart</view>
+    <view class="chart-container"><basic-line chartData="{{basicLine}}"/></view>
+  </view>
+  <view class="chart-section">
     <view class="title">Basic radar chart</view>
-    <view class="chart-container"><basic-radar chartData="{{radar}}"/></view>
+    <view class="chart-container"><basic-radar chartData="{{basicRadar}}"/></view>
   </view>
 </view>
