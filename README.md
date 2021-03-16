@@ -5,7 +5,7 @@
   - [Basic Line](./components/lines/BasicLine/index.js)
   > ![](./assets/charts/line_basic.png)
 - Radars
-  - [basic radar](./components/radars/BasicRadar/index.js)
+  - [Basic Radar](./components/radars/BasicRadar/index.js)
   > ![](./assets/charts/radar_basic.png)
 
 ### Support this project
