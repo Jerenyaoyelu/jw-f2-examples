@@ -1,7 +1,23 @@
 <view class="page-container">
   <view class="chart-section">
-    <view class="title">Basic line chart</view>
-    <view class="chart-container"><basic-line chartData="{{basicLine}}"/></view>
+    <view class="title">Basic line chart 1</view>
+    <view class="chart-container"><basic-line-1 chartData="{{basicLine1}}"/></view>
+  </view>
+  <view class="chart-section">
+    <view class="title">Basic line chart 2</view>
+    <view class="chart-container"><basic-line-2 chartData="{{basicLine2}}"/></view>
+  </view>
+  <view class="chart-section">
+    <view class="title">Basic line chart 3</view>
+    <view class="chart-container"><basic-line-3 chartData="{{basicLine3}}"/></view>
+  </view>
+  <view class="chart-section">
+    <view class="title">Basic line chart 4</view>
+    <view class="chart-container"><basic-line-4 chartData="{{basicLine4}}"/></view>
+  </view>
+  <view class="chart-section">
+    <view class="title">Basic line chart 5</view>
+    <view class="chart-container"><basic-line-5 chartData="{{basicLine5}}"/></view>
   </view>
   <view class="chart-section">
     <view class="title">Basic radar chart</view>
