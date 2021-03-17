@@ -1,6 +1,10 @@
 {
   "usingComponents": {
     "basic-radar": "/components/radars/BasicRadar/index",
-    "basic-line": "/components/lines/BasicLine/index"
+    "basic-line-1": "/components/lines/BasicLine1/index",
+    "basic-line-2": "/components/lines/BasicLine2/index",
+    "basic-line-3": "/components/lines/BasicLine3/index",
+    "basic-line-4": "/components/lines/BasicLine4/index",
+    "basic-line-5": "/components/lines/BasicLine5/index"
   }
 }

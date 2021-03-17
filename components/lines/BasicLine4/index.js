@@ -6,35 +6,28 @@ Component({
     }
   },
   data: {
-    chartId: '__jw-basic-line'
+    chartId: '__jw-basic-line-4'
   },
   methods: {
     renderChart(e) {
       const {F2, config, that} = e.detail;
       if(!F2 || !config || !that) return;
       const chart = new F2.Chart(config);
-      chart.source(this.properties.chartData, {
-        value: {
-          tickCount: 5,
-          min: 0
-        },
-        date: {
+      const defs = {
+        time: {
           type: 'timeCat',
-          range: [ 0, 1 ],
-          tickCount: 3
+          mask: 'MM/DD',
+          tickCount: 3,
+          range: [ 0, 1 ]
+        },
+        tem: {
+          tickCount: 5,
+          min: 0,
+          alias: '日均温度'
         }
-      });
-      chart.tooltip({
-        custom: true,
-        showXTip: true,
-        showYTip: true,
-        snap: true,
-        crosshairsType: 'xy',
-        crosshairsStyle: {
-          lineDash: [ 2 ]
-        }
-      });
-      chart.axis('date', {
+      };
+      chart.source(this.properties.chartData, defs);
+      chart.axis('time', {
         label: function label(text, index, total) {
           const textCfg = {};
           if (index === 0) {
@@ -45,7 +38,15 @@ Component({
           return textCfg;
         }
       });
-      chart.line().position('date*value');
+      chart.tooltip({
+        showCrosshairs: true
+      });
+      chart.line().position('time*tem').shape('smooth');
+      chart.point().position('time*tem').shape('smooth')
+        .style({
+          stroke: '#fff',
+          lineWidth: 1
+        });
       chart.render();
       that.chart = chart;
       that.canvasEl = chart.get('el');

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "jw-f2": "jw-f2"
+  }
+}
