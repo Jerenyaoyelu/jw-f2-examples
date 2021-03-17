@@ -1,12 +1,9 @@
 ## Full examples of using jw-f2 in wechat miniprogram
 
 ### Example Gallery
-- Lines
-  - [Basic Line](./components/lines/BasicLine/index.js)
-  > ![](./assets/charts/line_basic.png)
-- Radars
-  - [Basic Radar](./components/radars/BasicRadar/index.js)
-  > ![](./assets/charts/radar_basic.png)
+> Scan to experience
+
+![](./assets/qr.jpg)
 
 ### Support this project
 - Buy me a coffee
